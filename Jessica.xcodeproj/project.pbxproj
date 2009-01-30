@@ -15,6 +15,8 @@
 		315095370F3294FA00606EC0 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315095360F3294FA00606EC0 /* Sparkle.framework */; };
 		3150953B0F32951800606EC0 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 315095360F3294FA00606EC0 /* Sparkle.framework */; };
 		3150955C0F329C1500606EC0 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 3150955B0F329C1500606EC0 /* dsa_pub.pem */; };
+		3150955F0F32C2BD00606EC0 /* jessica-on-general-lee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3150955E0F32C2BD00606EC0 /* jessica-on-general-lee.jpg */; };
+		315095620F32C30D00606EC0 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 315095610F32C30D00606EC0 /* release_notes.txt */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -48,6 +50,8 @@
 		313D00D90F3018C80027DE73 /* jessica_dmg_icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = jessica_dmg_icon.icns; sourceTree = "<group>"; };
 		315095360F3294FA00606EC0 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "../../../../Downloads/Sparkle 1/With Garbage Collection/Sparkle.framework"; sourceTree = SOURCE_ROOT; };
 		3150955B0F329C1500606EC0 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		3150955E0F32C2BD00606EC0 /* jessica-on-general-lee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jessica-on-general-lee.jpg"; sourceTree = "<group>"; };
+		315095610F32C30D00606EC0 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Jessica_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jessica_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Jessica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jessica.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +128,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				315095610F32C30D00606EC0 /* release_notes.txt */,
+				3150955E0F32C2BD00606EC0 /* jessica-on-general-lee.jpg */,
 				3150955B0F329C1500606EC0 /* dsa_pub.pem */,
 				313D00D90F3018C80027DE73 /* jessica_dmg_icon.icns */,
 				313D00D70F3018760027DE73 /* background.jpg */,
@@ -196,6 +202,8 @@
 				313D00D80F3018760027DE73 /* background.jpg in Resources */,
 				313D00DA0F3018C80027DE73 /* jessica_dmg_icon.icns in Resources */,
 				3150955C0F329C1500606EC0 /* dsa_pub.pem in Resources */,
+				3150955F0F32C2BD00606EC0 /* jessica-on-general-lee.jpg in Resources */,
+				315095620F32C30D00606EC0 /* release_notes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
