@@ -5,9 +5,10 @@ require "choctop"
 
 ChocTop.new do |s|
   # Remote upload target
-  s.host     = 'mocra.com'
-  # s.base_url   = "http://#{s.host}/projects/jessica"
-  s.remote_dir = '/path/to/upload/root/of/app'
+  s.host     = 'choctop.rubyforge.org'
+  s.base_url   = "http://#{s.host}/jessica_dl"
+  s.remote_dir = '/var/www/gforge-projects/choctop/jessica_dl'
+  s.host_user = 'nicwilliams'
 
   # Custom DMG
   s.background_file = "background.jpg"
